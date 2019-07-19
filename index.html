@@ -3,14 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Welcome</title>
-    <link rel="index.css" href="/css/master.css">
+    <style>
+        body{
+            background-color:  rgb(6, 6, 10);
+            font-family : Roboto;
+            /* width: 1299px; */
+        }
+        .container
+        {
+          display: grid;
+          grid-template-columns: auto auto auto auto auto auto auto;
+
+        }
+        #name
+        {
+          grid-area: 1 / 1 / 1 / span 2;
+        }
+        .container a:hover
+        {
+          background-color: crimson;
+          border-style: dotted;
+          text-align: center;
+        }
+        #name
+        {
+          color: #fff;
+          font-family: "futura-pt", Helvetica, Arial, sans-serif;
+          font-weight: 700;
+          text-align: center;
+        }
+        #name a
+        {
+          color: #fff
+        }
+        .container a
+        {
+          color: aliceblue;font-size:15px;border-style: white dashed;
+        }
+        #name p
+        {
+          margin-left: 260px;padding-right: 380px;
+        }
+    </style>
 </head>
 <body>
-    <p>Tihs is my page</p>
+    <header class="main-header" style="width:1299px">
+      <nav class="navbar navbar-light" style="background-color: #2081c7;height:170px;">
+        <img src="3.jpg" alt="" style="height:150px;width:150px;margin-left: 40px;border-radius: 75px;">
+        <div class="container" style="margin-left: 313px;margin-top: -91px;">
+          <a href="http://" target="_blank" rel="noopener noreferrer" >SKILLS</a>
+          <a href="#my-note1" target="_blank" rel="noopener noreferrer" >PROJECTS</a>
+          <a href="#my-note2" target="_blank" rel="noopener noreferrer" >EDUCATION</a>
+          <a href="http://" target="_blank" rel="noopener noreferrer" >ABOUT</a>
+        </div>
+      </nav>
+      <div id="name">
+          <h1>I am Chandrashekhar,Fellow-Full stack developer at <a href="www.masaischool.com">Masai School</a></a></h1>
+          <p>"Total 1 year of experience as a Graduate Engineer Trainee in Bharath Electronics Limited, worked on front end Technologies such as HTML,CSS and JavaScripts"</p>
+      </div>
+    </header>
+    <div style="color:white">
+<h2 id="my-note1">
+PROJECTS
+</h2>
+</div>
 
-    
+
+
+    <div style="color:white">
+      <h3>Name : Tropo – NMS(Network Management System)</h3>
+      <h4>Duration: Feb 2018- Feb 2019</h4>
+      <p><strong>Designation:</strong>Graduate Engineer Trainee</p>
+      <p><strong>Responsibilities:</strong></p>
+      <ul>
+      <li>Responsible for analysing the requirements for the clients and QA.</li>
+      <li>Responsible for Configuration and Performance Modules in our Project.</li>
+      <li>Wrote and optimized test cases to maximize success of manual software testing with consistent, thorough approaches.</li>
+      <li>Designed, implemented, integrated, tested a GUI for color, alignment, size, mainly performed from user perspective.</li>
+      </ul>
+    </div>
+    <div id="my-note2" style="color:white">
+        <h2>
+        EDUCATION
+        </h2>
+        <table style="font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;">
+        <tr style="border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;">
+        <h3>
+            <th>NAME</th>
+            <th>DEGREE</th>
+            <th>PLACE</th>
+        	<th>YEAR</th>
+        	<th>PERCENTAGE</th></h3>
+        	<tr style="border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;">
+            <td>Shri Morarji Desai Residential School</td>
+            <td>SSLC</td>
+            <td>Bellary</td>
+        	<td>2011</td>
+            <td>69.5%</td>
+          </tr>
+        	<tr style="border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;">
+            <td>Nalanda PU College</td>
+            <td>PUC</td>
+            <td>Bellary</td>
+        	<td>2013</td>
+            <td>62.33%</td>
+          </tr>
+        <tr style="border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;">
+            <td>Bangalore Institute of Technology</td>
+            <td>B.E.</td>
+            <td>Bangalore</td>
+        	<td>2017</td>
+            <td>55.21%</td>
+          </tr>
+        </table>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
